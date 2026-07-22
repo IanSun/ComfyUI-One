@@ -1,0 +1,53 @@
+@custom-variant dark (&:where(.dark-theme, .dark-theme *));
+
+@custom-variant active (&:active, &[data-pressed]);
+@custom-variant blank (&:blank, &[data-placeholder]);
+@custom-variant checked (&:checked, &[data-checked]);
+@custom-variant disabled (&:disabled, &[data-disabled]);
+@custom-variant focus (&:focus, &[data-focused]);
+@custom-variant invalid (&:invalid, &[data-invalid]);
+@custom-variant open (&:open, &[data-open]);
+@custom-variant read-only (&:read-only, &[data-readonly]);
+@custom-variant required (&:required, &[data-required]);
+@custom-variant valid (&:valid, &[data-valid]);
+
+@custom-variant closed (&[data-closed]);
+@custom-variant dirty (&[data-dirty]);
+@custom-variant filled (&[data-filled]);
+@custom-variant scrubbing (&[data-scrubbing]);
+@custom-variant touched (&[data-touched]);
+@custom-variant unchecked (&[data-unchecked]);
+
+@custom-variant align-center (&[data-align="center"]);
+@custom-variant align-end (&[data-align="end"]);
+@custom-variant align-start (&[data-align="start"]);
+
+@custom-variant side-bottom (&[data-side="bottom"]);
+@custom-variant side-inline (&[data-side="inline-start"], &[data-side="inline-end"]);
+@custom-variant side-inline-end (&[data-side="inline-end"]);
+@custom-variant side-inline-start (&[data-side="inline-start"]);
+@custom-variant side-left (&[data-side="left"]);
+@custom-variant side-right (&[data-side="right"]);
+@custom-variant side-top (&[data-side="top"]);
+@custom-variant side-x (&[data-side="left"], &[data-side="right"]);
+@custom-variant side-y (&[data-side="bottom"], &[data-side="top"]);
+
+@utility anchor-* {
+	anchor-name: --value("none", [*]);
+}
+
+@utility anchor-scope-* {
+	anchor-scope: --value("none", "all", [*], --default("all"));
+}
+
+@utility position-anchor-* {
+	position-anchor: --value("normal", "none", "auto", "match-parent", [*]);
+}
+
+@utility position-area-* {
+	position-area: --value([generic-name]);
+}
+
+@utility position-try-fallbacks-* {
+	position-try-fallbacks: --value("none", "flip-block", "flip-inline", "flip-start", "flip-x", "flip-y", [*]);
+}

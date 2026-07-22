@@ -1,0 +1,28 @@
+@theme inline {
+	--color-background: var(--background, var(--color-zinc-950));
+	--color-foreground: var(--foreground, var(--color-zinc-50));
+	--color-card: var(--card, var(--color-zinc-900));
+	--color-card-foreground: var(--card-foreground, var(--foreground, var(--color-zinc-50)));
+	--color-popover: var(--popover, var(--color-zinc-900));
+	--color-popover-foreground: var(--popover-foreground, var(--foreground, var(--color-zinc-50)));
+	--color-primary: var(--primary, var(--color-violet-800));
+	--color-primary-foreground: var(--primary-foreground, var(--foreground, var(--color-violet-50)));
+	--color-secondary: var(--secondary, var(--color-zinc-800));
+	--color-secondary-foreground: var(--secondary-foreground, var(--foreground, var(--color-zinc-50)));
+	--color-muted: var(--muted, var(--color-zinc-800));
+	--color-muted-foreground: var(--muted-foreground, var(--color-zinc-400));
+	--color-accent: var(--accent, var(--color-zinc-800));
+	--color-accent-foreground: var(--accent-foreground, var(--foreground, var(--color-zinc-50)));
+	--color-destructive: var(--destructive, var(--color-red-400));
+	--color-border: var(--border, oklch(1 0 0 / 10%));
+	--color-input: var(--input, oklch(1 0 0 / 15%));
+	--color-ring: var(--ring, var(--color-zinc-500));
+}
+
+@theme reference {
+	--color-node: var(--node, var(--card));
+	--color-node-foreground: var(--node-foreground, var(--card-foreground));
+	--color-node-header: var(--node-header, var(--secondary));
+	--color-node-header-foreground: var(--node-header-foreground, var(--secondary-foreground, var(--foreground, var(--color-zinc-50))));
+	--color-node-border: var(--node-border, var(--border));
+}
