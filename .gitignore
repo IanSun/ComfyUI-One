@@ -1,0 +1,22 @@
+# targets
+/dist/
+/packages/one/comfyui_one/ui/dist/
+
+# node.js modules
+/node_modules/
+/packages/one/comfyui_one/ui/node_modules/
+
+# nx
+/.nx/
+
+# uv lock file
+/uv.lock
+
+# python virtual environments
+/.venv/
+
+# python caches
+/packages/one/comfyui_one/__pycache__/
+/packages/one/comfyui_one/node/*/__pycache__/
+/packages/one/comfyui_one/shared/__pycache__/
+/packages/one/comfyui_one_cli/__pycache__/

@@ -1,0 +1,22 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@plugin "tailwindcss-motion";
+@plugin "tailwindcss-react-aria-components";
+
+@theme inline {
+	--color-base-background: var(--base-background);
+	--color-border-default: var(--border-default);
+	--color-component-node-foreground: var(--component-node-foreground);
+	--color-component-node-widget-background: var(--component-node-widget-background);
+	--color-component-node-widget-background-disabled: var(--component-node-widget-background-disabled);
+	--color-component-node-widget-background-highlighted: var(--component-node-widget-background-highlighted);
+	--color-component-node-widget-background-hovered: var(--component-node-widget-background-hovered);
+	--color-muted-background: var(--muted-background);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-node-component-slot-text: var(--node-component-slot-text);
+	--color-primary-background: var(--primary-background);
+}
+
+@source inline("rounded-b-xl");
+@source inline("w-3");
