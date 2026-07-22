@@ -1,0 +1,33 @@
+from comfy_api.latest import io
+from sys import maxsize
+from typing import TypedDict, Unpack
+
+class _Inputs(TypedDict):
+	value: int
+
+class OneInt(io.ComfyNode):
+	@classmethod
+	def define_schema(cls) -> io.Schema:
+		return io.Schema(
+			node_id = "OneInt",
+			category = "One/Primitive",
+			inputs = [
+				io.Int.Input(
+					id = "value",
+					default = 0,
+					min = -maxsize,
+					max = maxsize,
+					step = 1,
+					socketless = True,
+				),
+			],
+			outputs = [
+				io.Int.Output(id = "value"),
+			],
+		)
+
+	@classmethod
+	def execute(cls, **kwargs: Unpack[_Inputs]) -> io.NodeOutput:
+		value = int(kwargs["value"])
+
+		return io.NodeOutput(value)

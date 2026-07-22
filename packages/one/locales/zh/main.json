@@ -1,0 +1,9 @@
+{
+	"nodeCategories": {
+		"BoundingBox": "边界框",
+		"Execution": "执行",
+		"Image": "图像",
+		"Math": "数学",
+		"Primitive": "原始值"
+	}
+}

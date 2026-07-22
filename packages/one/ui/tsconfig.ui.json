@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"experimentalDecorators": true,
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"noEmit": true,
+		"noUncheckedIndexedAccess": true,
+		"paths": {
+			"@/*": [
+				"./node_modules/@comfyorg/comfyui-frontend/src/*"
+			]
+		},
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "esnext",
+		"verbatimModuleSyntax": true,
+	},
+	"include": [
+		"node_modules/@comfyorg/comfyui-frontend/src/types/litegraph-augmentation.d.ts",
+		"src"
+	]
+}
