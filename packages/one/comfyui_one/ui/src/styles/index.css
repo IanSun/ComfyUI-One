@@ -1,0 +1,34 @@
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@plugin "tailwindcss-motion";
+@plugin "tailwindcss-react-aria-components";
+
+@theme inline {
+	--color-component-node-background: var(--component-node-background);
+	--color-component-node-border: var(--component-node-border);
+	--color-component-node-foreground: var(--component-node-foreground);
+	--color-component-node-foreground-secondary: var(--component-node-foreground-secondary);
+	--color-component-node-widget-advanced: var(--component-node-widget-advanced);
+	--color-component-node-widget-background: var(--component-node-widget-background);
+	--color-component-node-widget-background-disabled: var(--component-node-widget-background-disabled);
+	--color-component-node-widget-background-highlighted: var(--component-node-widget-background-highlighted);
+	--color-component-node-widget-background-hovered: var(--component-node-widget-background-hovered);
+	--color-component-node-widget-background-selected: var(--component-node-widget-background-selected);
+	--color-component-node-widget-promoted: var(--component-node-widget-promoted);
+	--color-modal-card-background: var(--modal-card-background);
+	--color-modal-card-button-surface: var(--modal-card-button-surface);
+	--color-modal-card-tag-background: var(--modal-card-tag-background);
+	--color-modal-card-tag-foreground: var(--modal-card-tag-foreground);
+	--color-modal-panel-background: var(--modal-panel-background);
+	--color-node-component-ring: var(--node-component-ring);
+	--color-node-component-slot-text: var(--node-component-slot-text);
+	--color-node-component-surface: var(--node-component-surface);
+	--color-node-component-surface-highlight: var(--node-component-surface-highlight);
+	--color-node-component-surface-hovered: var(--node-component-surface-hovered);
+	--color-node-component-surface-selected: var(--node-component-surface-selected);
+	--color-primary-background: var(--primary-background);
+}
+
+@source inline("rounded-b-xl");
+@source inline("w-3");

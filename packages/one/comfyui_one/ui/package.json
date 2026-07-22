@@ -1,0 +1,42 @@
+{
+	"name": "@one/ui",
+	"type": "module",
+	"scripts": {
+		"build": "nx run build",
+		"build:inspect": "nx run build:inspect"
+	},
+	"dependencies": {
+		"@floating-ui/dom": "catalog:",
+		"@nanostores/react": "catalog:",
+		"cn": "catalog:",
+		"i18next": "catalog:",
+		"i18next-http-backend": "catalog:",
+		"i18next-multiload-backend-adapter": "catalog:",
+		"lucide-react": "catalog:",
+		"nanostores": "catalog:",
+		"react": "catalog:",
+		"react-aria": "catalog:",
+		"react-aria-components": "catalog:",
+		"react-dom": "catalog:",
+		"react-i18next": "catalog:",
+		"react-stately": "catalog:",
+		"tailwindcss": "catalog:"
+	},
+	"devDependencies": {
+		"@comfyorg/comfyui-frontend": "workspace:*",
+		"@react-aria/optimize-locales-plugin": "catalog:",
+		"@tailwindcss/vite": "catalog:",
+		"@types/react": "catalog:",
+		"@types/react-dom": "catalog:",
+		"@vitejs/plugin-react": "catalog:",
+		"magic-string": "catalog:",
+		"nx": "catalog:",
+		"tailwindcss-motion": "catalog:",
+		"tailwindcss-react-aria-components": "catalog:",
+		"typescript": "catalog:",
+		"vite": "catalog:",
+		"vite-bundle-analyzer": "catalog:",
+		"zod": "catalog:@comfyorg/comfyui-frontend"
+	},
+	"private": true
+}
