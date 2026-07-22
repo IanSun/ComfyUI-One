@@ -1,0 +1,21 @@
+# targets
+/dist/
+/packages/one/ui/dist/
+
+# node.js modules
+/node_modules/
+/packages/one/ui/node_modules/
+
+# nx
+/.nx/
+
+# uv lock file
+/uv.lock
+
+# python virtual environments
+/.venv/
+
+# python caches
+/packages/one/__pycache__/
+/packages/one/node/*/__pycache__/
+/packages/one/shared/__pycache__/

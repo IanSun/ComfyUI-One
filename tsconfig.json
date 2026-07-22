@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"noEmit": true,
+		"noUncheckedIndexedAccess": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "esnext",
+		"types": [
+			"node"
+		],
+		"verbatimModuleSyntax": true
+	},
+	"include": [
+		"eslint.config.mjs"
+	]
+}

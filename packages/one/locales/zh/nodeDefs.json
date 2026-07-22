@@ -1,0 +1,1857 @@
+{
+	"OneAnyConvertToBoolean": {
+		"display_name": "任意值转换为布尔值",
+		"inputs": {
+			"value": {
+				"name": "值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "布尔值"
+			}
+		}
+	},
+	"OneAnyConvertToFloat": {
+		"display_name": "任意值转换为浮点数",
+		"inputs": {
+			"value": {
+				"name": "值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneAnyConvertToInt": {
+		"display_name": "任意值转换为整数",
+		"inputs": {
+			"value": {
+				"name": "值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneBoolean": {
+		"display_name": "布尔值",
+		"inputs": {
+			"value": {
+				"name": "布尔值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "布尔值"
+			}
+		}
+	},
+	"OneBoundingBox": {
+		"display_name": "边界框",
+		"inputs": {
+			"height": {
+				"name": "高度"
+			},
+			"width": {
+				"name": "宽度"
+			},
+			"x": {
+				"name": "横坐标"
+			},
+			"y": {
+				"name": "纵坐标"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "边界框"
+			}
+		}
+	},
+	"OneBoundingBoxInspect": {
+		"display_name": "边界框检视",
+		"inputs": {
+			"box": {
+				"name": "边界框"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "横坐标"
+			},
+			"1": {
+				"name": "纵坐标"
+			},
+			"2": {
+				"name": "宽度"
+			},
+			"3": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneExecutionBlock": {
+		"display_name": "执行阻止",
+		"inputs": {
+			"input": {
+				"name": "输入"
+			},
+			"passthrough": {
+				"name": "通过"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionFailover": {
+		"display_name": "执行故障转移",
+		"inputs": {
+			"input": {
+				"name": "输入",
+				"template": {
+					"prefix": "输入"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionGet": {
+		"display_name": "执行获取",
+		"inputs": {
+			"name": {
+				"name": "名称"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionSelect": {
+		"display_name": "执行选择",
+		"inputs": {
+			"index": {
+				"name": "索引"
+			},
+			"input": {
+				"name": "输入",
+				"template": {
+					"prefix": "输入"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionSet": {
+		"display_name": "执行设置",
+		"inputs": {
+			"input": {
+				"name": "输入"
+			},
+			"name": {
+				"name": "名称"
+			}
+		}
+	},
+	"OneExecutionSwitch": {
+		"display_name": "执行切换",
+		"inputs": {
+			"alternative": {
+				"name": "替代"
+			},
+			"input": {
+				"name": "输入"
+			},
+			"input_alternative": {
+				"name": "替代输入"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionVoid": {
+		"display_name": "执行废除",
+		"inputs": {
+			"input": {
+				"name": "输入"
+			},
+			"passthrough": {
+				"name": "通过"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneFloat": {
+		"display_name": "浮点数",
+		"inputs": {
+			"value": {
+				"name": "数值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneFloatAdd": {
+		"display_name": "浮点数相加",
+		"inputs": {
+			"addend": {
+				"name": "加数",
+				"template": {
+					"prefix": "加数"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "和"
+			}
+		}
+	},
+	"OneFloatCeil": {
+		"display_name": "浮点数向上舍入",
+		"inputs": {
+			"number": {
+				"name": "数值"
+			},
+			"precision": {
+				"name": "精度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneFloatDivide": {
+		"display_name": "浮点数相除",
+		"inputs": {
+			"dividend": {
+				"name": "被除数"
+			},
+			"divisor": {
+				"name": "除数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			},
+			"1": {
+				"name": "商"
+			},
+			"2": {
+				"name": "余数"
+			}
+		}
+	},
+	"OneFloatEvaluate": {
+		"display_name": "浮点数求值",
+		"inputs": {
+			"expression": {
+				"name": "表达式"
+			},
+			"input": {
+				"name": "输入",
+				"template": {
+					"prefix": "输入"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneFloatExponentiate": {
+		"display_name": "浮点数求幂",
+		"inputs": {
+			"base": {
+				"name": "底数"
+			},
+			"exponent": {
+				"name": "指数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "幂"
+			}
+		}
+	},
+	"OneFloatFloor": {
+		"display_name": "浮点数向下舍入",
+		"inputs": {
+			"number": {
+				"name": "数值"
+			},
+			"precision": {
+				"name": "精度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneFloatMax": {
+		"display_name": "浮点数最大值",
+		"inputs": {
+			"number": {
+				"name": "数字",
+				"template": {
+					"prefix": "数字"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "最大值"
+			}
+		}
+	},
+	"OneFloatMin": {
+		"display_name": "浮点数最小值",
+		"inputs": {
+			"number": {
+				"name": "数字",
+				"template": {
+					"prefix": "数字"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "最小值"
+			}
+		}
+	},
+	"OneFloatMultiply": {
+		"display_name": "浮点数相乘",
+		"inputs": {
+			"factor": {
+				"name": "因子",
+				"template": {
+					"prefix": "因子"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "积"
+			}
+		}
+	},
+	"OneFloatRound": {
+		"display_name": "浮点数舍入",
+		"inputs": {
+			"number": {
+				"name": "数值"
+			},
+			"precision": {
+				"name": "精度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneFloatSubtract": {
+		"display_name": "浮点数相减",
+		"inputs": {
+			"minuend": {
+				"name": "被减数"
+			},
+			"subtrahend": {
+				"name": "减数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "差"
+			}
+		}
+	},
+	"OneImage": {
+		"display_name": "图像",
+		"inputs": {
+			"batch": {
+				"name": "批量大小"
+			},
+			"color": {
+				"name": "颜色"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			},
+			"1": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneImageCreateMask": {
+		"display_name": "图像创建遮罩",
+		"inputs": {
+			"color": {
+				"name": "颜色"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneImageCrop": {
+		"display_name": "图像裁剪",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"image": {
+				"name": "图像"
+			},
+			"width": {
+				"name": "宽度"
+			},
+			"x": {
+				"name": "横坐标"
+			},
+			"y": {
+				"name": "纵坐标"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageCropByAlignment": {
+		"display_name": "图像裁剪（对齐）",
+		"inputs": {
+			"alignment": {
+				"name": "对齐",
+				"options": {
+					"bottom": "底边对齐",
+					"bottom-left": "左下对齐",
+					"bottom-right": "右下对齐",
+					"center": "居中对齐",
+					"left": "左边对齐",
+					"right": "右边对齐",
+					"top": "顶边对齐",
+					"top-left": "左上对齐",
+					"top-right": "右上对齐"
+				}
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"image": {
+				"name": "图像"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageCropByBoundingBox": {
+		"display_name": "图像裁剪（边界框）",
+		"inputs": {
+			"box": {
+				"name": "边界框"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageGetHeight": {
+		"display_name": "图像获取高度",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneImageGetLongerEdge": {
+		"display_name": "图像获取长边",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "长边"
+			}
+		}
+	},
+	"OneImageGetResolution": {
+		"display_name": "图像获取分辨率",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "分辨率"
+			}
+		}
+	},
+	"OneImageGetShorterEdge": {
+		"display_name": "图像获取短边",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "短边"
+			}
+		}
+	},
+	"OneImageGetSize": {
+		"display_name": "图像获取尺寸",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			},
+			"1": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneImageGetWidth": {
+		"display_name": "图像获取宽度",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			}
+		}
+	},
+	"OneImagePad": {
+		"display_name": "图像外补",
+		"inputs": {
+			"bottom": {
+				"name": "底边"
+			},
+			"color": {
+				"name": "颜色"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"left": {
+				"name": "左边"
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"right": {
+				"name": "右边"
+			},
+			"top": {
+				"name": "顶边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			},
+			"1": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneImagePadToMultiple": {
+		"display_name": "图像外补（倍数）",
+		"inputs": {
+			"alignment": {
+				"name": "对齐",
+				"options": {
+					"bottom": "底边对齐",
+					"bottom-left": "左下对齐",
+					"bottom-right": "右下对齐",
+					"center": "居中对齐",
+					"left": "左边对齐",
+					"right": "右边对齐",
+					"top": "顶边对齐",
+					"top-left": "左上对齐",
+					"top-right": "右上对齐"
+				}
+			},
+			"color": {
+				"name": "颜色"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"multiple": {
+				"name": "倍数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneImagePadToSize": {
+		"display_name": "图像外补（尺寸）",
+		"inputs": {
+			"alignment": {
+				"name": "对齐",
+				"options": {
+					"bottom": "底边对齐",
+					"bottom-left": "左下对齐",
+					"bottom-right": "右下对齐",
+					"center": "居中对齐",
+					"left": "左边对齐",
+					"right": "右边对齐",
+					"top": "顶边对齐",
+					"top-left": "左上对齐",
+					"top-right": "右上对齐"
+				}
+			},
+			"color": {
+				"name": "颜色"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"image": {
+				"name": "图像"
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			},
+			"1": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneImageScale": {
+		"display_name": "图像缩放",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"image": {
+				"name": "图像"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleBy": {
+		"display_name": "图像缩放（倍数）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"multiple": {
+				"name": "倍数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleByLongerEdge": {
+		"display_name": "图像缩放（长边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "长边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleByShorterEdge": {
+		"display_name": "图像缩放（短边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "短边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleDownByLongerEdge": {
+		"display_name": "图像缩小（长边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "长边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleDownByShorterEdge": {
+		"display_name": "图像缩小（短边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "短边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleDownToMegapixel": {
+		"display_name": "图像缩小（像素）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"megapixel": {
+				"name": "百万像素"
+			},
+			"method": {
+				"name": "算法"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleToMegapixel": {
+		"display_name": "图像缩放（像素）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"megapixel": {
+				"name": "百万像素"
+			},
+			"method": {
+				"name": "算法"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleUpByLongerEdge": {
+		"display_name": "图像放大（长边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "长边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleUpByShorterEdge": {
+		"display_name": "图像放大（短边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "短边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneImageScaleUpToMegapixel": {
+		"display_name": "图像放大（像素）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"image": {
+				"name": "图像"
+			},
+			"megapixel": {
+				"name": "百万像素"
+			},
+			"method": {
+				"name": "算法"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneInt": {
+		"display_name": "整数",
+		"inputs": {
+			"value": {
+				"name": "数值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneIntAdd": {
+		"display_name": "整数相加",
+		"inputs": {
+			"addend": {
+				"name": "加数",
+				"template": {
+					"prefix": "加数"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "和"
+			}
+		}
+	},
+	"OneIntAlignDownToMultiple": {
+		"display_name": "整数向下对齐（倍数）",
+		"inputs": {
+			"base": {
+				"name": "基数"
+			},
+			"number": {
+				"name": "数值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneIntAlignUpToMultiple": {
+		"display_name": "整数向上对齐（倍数）",
+		"inputs": {
+			"base": {
+				"name": "基数"
+			},
+			"number": {
+				"name": "数值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "数值"
+			}
+		}
+	},
+	"OneIntDivide": {
+		"display_name": "整数相除",
+		"inputs": {
+			"dividend": {
+				"name": "被除数"
+			},
+			"divisor": {
+				"name": "除数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "商"
+			},
+			"1": {
+				"name": "余数"
+			}
+		}
+	},
+	"OneIntEvaluate": {
+		"display_name": "整数求值",
+		"inputs": {
+			"expression": {
+				"name": "表达式"
+			},
+			"input": {
+				"name": "输入",
+				"template": {
+					"prefix": "输入"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneIntExponentiate": {
+		"display_name": "整数求幂",
+		"inputs": {
+			"base": {
+				"name": "底数"
+			},
+			"exponent": {
+				"name": "指数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "幂"
+			}
+		}
+	},
+	"OneIntMax": {
+		"display_name": "整数最大值",
+		"inputs": {
+			"number": {
+				"name": "数字",
+				"template": {
+					"prefix": "数字"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "最大值"
+			}
+		}
+	},
+	"OneIntMin": {
+		"display_name": "整数最小值",
+		"inputs": {
+			"number": {
+				"name": "数字",
+				"template": {
+					"prefix": "数字"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "最小值"
+			}
+		}
+	},
+	"OneIntMultiply": {
+		"display_name": "整数相乘",
+		"inputs": {
+			"factor": {
+				"name": "因子",
+				"template": {
+					"prefix": "因子"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "积"
+			}
+		}
+	},
+	"OneIntSubtract": {
+		"display_name": "整数相减",
+		"inputs": {
+			"minuend": {
+				"name": "被减数"
+			},
+			"subtrahend": {
+				"name": "减数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "差"
+			}
+		}
+	},
+	"OneMask": {
+		"display_name": "遮罩",
+		"inputs": {
+			"batch": {
+				"name": "批量大小"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"value": {
+				"name": "数值"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskCreateImage": {
+		"display_name": "遮罩创建图像",
+		"inputs": {
+			"color": {
+				"name": "颜色"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			}
+		}
+	},
+	"OneMaskCrop": {
+		"display_name": "遮罩裁剪",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"width": {
+				"name": "宽度"
+			},
+			"x": {
+				"name": "横坐标"
+			},
+			"y": {
+				"name": "纵坐标"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskCropByAlignment": {
+		"display_name": "遮罩裁剪（对齐）",
+		"inputs": {
+			"alignment": {
+				"name": "对齐",
+				"options": {
+					"bottom": "底边对齐",
+					"bottom-left": "左下对齐",
+					"bottom-right": "右下对齐",
+					"center": "居中对齐",
+					"left": "左边对齐",
+					"right": "右边对齐",
+					"top": "顶边对齐",
+					"top-left": "左上对齐",
+					"top-right": "右上对齐"
+				}
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"image": {
+				"name": "遮罩"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskCropByBoundingBox": {
+		"display_name": "遮罩裁剪（边界框）",
+		"inputs": {
+			"box": {
+				"name": "边界框"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskGetHeight": {
+		"display_name": "遮罩获取高度",
+		"inputs": {
+			"mask": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneMaskGetLongerEdge": {
+		"display_name": "遮罩获取长边",
+		"inputs": {
+			"image": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "长边"
+			}
+		}
+	},
+	"OneMaskGetResolution": {
+		"display_name": "遮罩获取分辨率",
+		"inputs": {
+			"mask": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "分辨率"
+			}
+		}
+	},
+	"OneMaskGetShorterEdge": {
+		"display_name": "遮罩获取短边",
+		"inputs": {
+			"image": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "短边"
+			}
+		}
+	},
+	"OneMaskGetSize": {
+		"display_name": "遮罩获取尺寸",
+		"inputs": {
+			"mask": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			},
+			"1": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneMaskGetWidth": {
+		"display_name": "遮罩获取宽度",
+		"inputs": {
+			"mask": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			}
+		}
+	},
+	"OneMaskMultiply": {
+		"display_name": "遮罩乘法",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"value": {
+				"name": "数值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskPad": {
+		"display_name": "遮罩外补",
+		"inputs": {
+			"bottom": {
+				"name": "底边"
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"left": {
+				"name": "左边"
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"right": {
+				"name": "右边"
+			},
+			"top": {
+				"name": "顶边"
+			},
+			"value": {
+				"name": "数值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskPadToMultiple": {
+		"display_name": "遮罩外补（倍数）",
+		"inputs": {
+			"alignment": {
+				"name": "对齐",
+				"options": {
+					"bottom": "底边对齐",
+					"bottom-left": "左下对齐",
+					"bottom-right": "右下对齐",
+					"center": "居中对齐",
+					"left": "左边对齐",
+					"right": "右边对齐",
+					"top": "顶边对齐",
+					"top-left": "左上对齐",
+					"top-right": "右上对齐"
+				}
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"multiple": {
+				"name": "倍数"
+			},
+			"value": {
+				"name": "数值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskPadToSize": {
+		"display_name": "遮罩外补（尺寸）",
+		"inputs": {
+			"alignment": {
+				"name": "对齐",
+				"options": {
+					"bottom": "底边对齐",
+					"bottom-left": "左下对齐",
+					"bottom-right": "右下对齐",
+					"center": "居中对齐",
+					"left": "左边对齐",
+					"right": "右边对齐",
+					"top": "顶边对齐",
+					"top-left": "左上对齐",
+					"top-right": "右上对齐"
+				}
+			},
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"value": {
+				"name": "数值"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScale": {
+		"display_name": "遮罩缩放",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"height": {
+				"name": "高度"
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleBy": {
+		"display_name": "遮罩缩放（倍数）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"multiple": {
+				"name": "倍数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleByLongerEdge": {
+		"display_name": "遮罩缩放（长边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "长边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleByShorterEdge": {
+		"display_name": "遮罩缩放（短边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "短边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleDownByLongerEdge": {
+		"display_name": "遮罩缩小（长边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "长边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleDownByShorterEdge": {
+		"display_name": "遮罩缩小（短边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "短边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleDownToMegapixel": {
+		"display_name": "遮罩缩小（像素）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"megapixel": {
+				"name": "百万像素"
+			},
+			"method": {
+				"name": "算法"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleToMegapixel": {
+		"display_name": "遮罩缩放（像素）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"megapixel": {
+				"name": "百万像素"
+			},
+			"method": {
+				"name": "算法"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleUpByLongerEdge": {
+		"display_name": "遮罩放大（长边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "长边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleUpByShorterEdge": {
+		"display_name": "遮罩放大（短边）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"method": {
+				"name": "算法"
+			},
+			"size": {
+				"name": "短边"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskScaleUpToMegapixel": {
+		"display_name": "遮罩放大（像素）",
+		"inputs": {
+			"device": {
+				"name": "设备",
+				"options": {
+					"default": "默认"
+				}
+			},
+			"mask": {
+				"name": "遮罩"
+			},
+			"megapixel": {
+				"name": "百万像素"
+			},
+			"method": {
+				"name": "算法"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	}
+}
