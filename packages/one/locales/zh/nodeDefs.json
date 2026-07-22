@@ -1,0 +1,585 @@
+{
+	"OneBoolean": {
+		"display_name": "布尔值",
+		"inputs": {
+			"value": {
+				"name": "值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneBoundingBox": {
+		"display_name": "边界框",
+		"inputs": {
+			"height": {
+				"name": "高度"
+			},
+			"width": {
+				"name": "宽度"
+			},
+			"x": {
+				"name": "横坐标"
+			},
+			"y": {
+				"name": "纵坐标"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "边界框"
+			}
+		}
+	},
+	"OneBoundingBoxInspect": {
+		"display_name": "边界框检视",
+		"inputs": {
+			"box": {
+				"name": "边界框"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "横坐标"
+			},
+			"1": {
+				"name": "纵坐标"
+			},
+			"2": {
+				"name": "宽度"
+			},
+			"3": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneExecutionBlock": {
+		"display_name": "执行阻止",
+		"inputs": {
+			"input": {
+				"name": "输入"
+			},
+			"passthrough": {
+				"name": "通过"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionFailover": {
+		"display_name": "执行故障转移",
+		"inputs": {
+			"input": {
+				"name": "输入",
+				"template": {
+					"prefix": "输入"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionGet": {
+		"display_name": "执行获取",
+		"inputs": {
+			"name": {
+				"name": "名称"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionSelect": {
+		"display_name": "执行选择",
+		"inputs": {
+			"index": {
+				"name": "索引"
+			},
+			"input": {
+				"name": "输入",
+				"template": {
+					"prefix": "输入"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionSet": {
+		"display_name": "执行设置",
+		"inputs": {
+			"input": {
+				"name": "输入"
+			},
+			"name": {
+				"name": "名称"
+			}
+		}
+	},
+	"OneExecutionSwitch": {
+		"display_name": "执行切换",
+		"inputs": {
+			"alternative": {
+				"name": "替代"
+			},
+			"input": {
+				"name": "输入"
+			},
+			"input_alternative": {
+				"name": "替代输入"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionVoid": {
+		"display_name": "执行废除",
+		"inputs": {
+			"input": {
+				"name": "输入"
+			},
+			"passthrough": {
+				"name": "通过"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneFloat": {
+		"display_name": "浮点数",
+		"inputs": {
+			"value": {
+				"name": "值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneFloatAdd": {
+		"display_name": "浮点数相加",
+		"inputs": {
+			"addend": {
+				"name": "加数",
+				"template": {
+					"prefix": "加数"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "和"
+			}
+		}
+	},
+	"OneFloatDivide": {
+		"display_name": "浮点数相除",
+		"inputs": {
+			"dividend": {
+				"name": "被除数"
+			},
+			"divisor": {
+				"name": "除数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "商"
+			},
+			"1": {
+				"name": "余数"
+			}
+		}
+	},
+	"OneFloatExponentiate": {
+		"display_name": "浮点数求幂",
+		"inputs": {
+			"base": {
+				"name": "底数"
+			},
+			"exponent": {
+				"name": "指数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "幂"
+			}
+		}
+	},
+	"OneFloatMax": {
+		"display_name": "浮点数最大值",
+		"inputs": {
+			"number": {
+				"name": "数字",
+				"template": {
+					"prefix": "数字"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "最大值"
+			}
+		}
+	},
+	"OneFloatMin": {
+		"display_name": "浮点数最小值",
+		"inputs": {
+			"number": {
+				"name": "数字",
+				"template": {
+					"prefix": "数字"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "最小值"
+			}
+		}
+	},
+	"OneFloatMultiply": {
+		"display_name": "浮点数相乘",
+		"inputs": {
+			"factor": {
+				"name": "因子",
+				"template": {
+					"prefix": "因子"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "积"
+			}
+		}
+	},
+	"OneFloatSubtract": {
+		"display_name": "浮点数相减",
+		"inputs": {
+			"minuend": {
+				"name": "被减数"
+			},
+			"subtrahend": {
+				"name": "减数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "差"
+			}
+		}
+	},
+	"OneImage": {
+		"display_name": "图像",
+		"inputs": {
+			"batch": {
+				"name": "批量大小"
+			},
+			"color": {
+				"name": "颜色"
+			},
+			"device": {
+				"name": "设备"
+			},
+			"height": {
+				"name": "高度"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "图像"
+			},
+			"1": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneImageGetHeight": {
+		"display_name": "图像获取高度",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneImageGetLongerEdge": {
+		"display_name": "图像获取长边",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "长边"
+			}
+		}
+	},
+	"OneImageGetResolution": {
+		"display_name": "图像获取分辨率",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "分辨率"
+			}
+		}
+	},
+	"OneImageGetShorterEdge": {
+		"display_name": "图像获取短边",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "短边"
+			}
+		}
+	},
+	"OneImageGetSize": {
+		"display_name": "图像获取尺寸",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			},
+			"1": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneImageGetWidth": {
+		"display_name": "图像获取宽度",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			}
+		}
+	},
+	"OneInt": {
+		"display_name": "整数",
+		"inputs": {
+			"value": {
+				"name": "值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneIntAdd": {
+		"display_name": "整数相加",
+		"inputs": {
+			"addend": {
+				"name": "加数",
+				"template": {
+					"prefix": "加数"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "和"
+			}
+		}
+	},
+	"OneIntDivide": {
+		"display_name": "整数相除",
+		"inputs": {
+			"dividend": {
+				"name": "被除数"
+			},
+			"divisor": {
+				"name": "除数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "商"
+			},
+			"1": {
+				"name": "余数"
+			}
+		}
+	},
+	"OneIntExponentiate": {
+		"display_name": "整数求幂",
+		"inputs": {
+			"base": {
+				"name": "底数"
+			},
+			"exponent": {
+				"name": "指数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "幂"
+			}
+		}
+	},
+	"OneIntMax": {
+		"display_name": "整数最大值",
+		"inputs": {
+			"number": {
+				"name": "数字",
+				"template": {
+					"prefix": "数字"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "最大值"
+			}
+		}
+	},
+	"OneIntMin": {
+		"display_name": "整数最小值",
+		"inputs": {
+			"number": {
+				"name": "数字",
+				"template": {
+					"prefix": "数字"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "最小值"
+			}
+		}
+	},
+	"OneIntMultiply": {
+		"display_name": "整数相乘",
+		"inputs": {
+			"factor": {
+				"name": "因子",
+				"template": {
+					"prefix": "因子"
+				}
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "积"
+			}
+		}
+	},
+	"OneIntSubtract": {
+		"display_name": "整数相减",
+		"inputs": {
+			"minuend": {
+				"name": "被减数"
+			},
+			"subtrahend": {
+				"name": "减数"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "差"
+			}
+		}
+	},
+	"OneMask": {
+		"display_name": "遮罩",
+		"inputs": {
+			"batch": {
+				"name": "批量大小"
+			},
+			"device": {
+				"name": "设备"
+			},
+			"height": {
+				"name": "高度"
+			},
+			"strength": {
+				"name": "强度"
+			},
+			"width": {
+				"name": "宽度"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "遮罩"
+			}
+		}
+	},
+	"OneMaskGetHeight": {
+		"display_name": "遮罩获取高度",
+		"inputs": {
+			"mask": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneMaskGetWidth": {
+		"display_name": "遮罩获取宽度",
+		"inputs": {
+			"mask": {
+				"name": "遮罩"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			}
+		}
+	}
+}

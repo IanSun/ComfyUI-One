@@ -1,0 +1,32 @@
+{
+	"name": "@one/workspace",
+	"type": "module",
+	"scripts": {
+		"build": "nx run @one/ui:build",
+		"lint": "eslint"
+	},
+	"devDependencies": {
+		"@eslint/js": "catalog:",
+		"@stylistic/eslint-plugin": "catalog:",
+		"@types/node": "^26.6.1",
+		"eslint": "catalog:",
+		"eslint-plugin-perfectionist": "catalog:",
+		"eslint-plugin-unicorn": "catalog:",
+		"nx": "catalog:",
+		"typescript": "catalog:",
+		"typescript-eslint": "catalog:"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"onFail": "warn",
+			"version": "26.9.0"
+		},
+		"packageManager": {
+			"name": "pnpm",
+			"onFail": "warn",
+			"version": "12.4.2"
+		}
+	},
+	"private": true
+}

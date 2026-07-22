@@ -1,0 +1,18 @@
+{
+	"$schema": "node_modules/nx/schemas/project-schema.json",
+	"namedInputs": {
+		"production": [
+			"default",
+			"{workspaceRoot}/packages/one/locales/*/*.json"
+		]
+	},
+	"targets": {
+		"build": {
+			"executor": "nx:run-commands",
+			"options": {
+				"command": "vite build",
+				"cwd": "{projectRoot}"
+			}
+		}
+	}
+}

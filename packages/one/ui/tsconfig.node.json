@@ -1,0 +1,16 @@
+{
+	"compilerOptions": {
+		"checkJs": true,
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"noEmit": true,
+		"noUncheckedIndexedAccess": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "esnext",
+		"verbatimModuleSyntax": true
+	},
+	"include": [
+		"vite.config.ts"
+	]
+}
