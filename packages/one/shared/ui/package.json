@@ -1,0 +1,21 @@
+{
+	"name": "@one/shared",
+	"exports": {
+		".": {
+			"import": "./dist/main.js",
+			"types": "./dist/main.d.ts"
+		}
+	},
+	"type": "module",
+	"scripts": {
+		"build": "nx build"
+	},
+	"devDependencies": {
+		"@one/tsconfig": "workspace:*",
+		"nx": "catalog:",
+		"typescript": "catalog:",
+		"unplugin-dts": "catalog:",
+		"vite": "catalog:"
+	},
+	"private": true
+}

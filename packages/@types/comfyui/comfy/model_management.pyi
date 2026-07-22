@@ -1,0 +1,9 @@
+import torch
+
+def get_gpu_device_options() -> list[str]:
+	...
+
+def resolve_gpu_device_option(option: str) -> torch.device | None:
+	...
+
+...

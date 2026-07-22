@@ -1,0 +1,9 @@
+{
+	"extends": "@one/tsconfig",
+	"compilerOptions": {
+		"jsx": "preserve"
+	},
+	"include": [
+		"src"
+	]
+}

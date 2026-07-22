@@ -1,0 +1,19 @@
+{
+	"name": "@one/ui",
+	"type": "module",
+	"scripts": {
+		"build": "vite build"
+	},
+	"dependencies": {
+		"@one/node.multiplex": "workspace:*",
+		"@one/shared": "workspace:*"
+	},
+	"devDependencies": {
+		"@one/tsconfig": "workspace:*",
+		"nx": "catalog:",
+		"typescript": "catalog:",
+		"vite": "catalog:",
+		"vite-plugin-css-injected-by-js": "catalog:"
+	},
+	"private": true
+}

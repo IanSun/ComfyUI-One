@@ -1,0 +1,15 @@
+{
+	"name": "@one/tsconfig",
+	"exports": {
+		".": "./tsconfig.json",
+		"./tsconfig.node.json": "./tsconfig.node.json"
+	},
+	"type": "module",
+	"dependencies": {
+		"@comfyorg/comfyui-frontend": "workspace:*"
+	},
+	"peerDependencies": {
+		"typescript": "catalog:"
+	},
+	"private": true
+}
