@@ -1,0 +1,55 @@
+from comfy.model_management import get_gpu_device_options
+from comfy_api.latest import io
+from sys import maxsize
+from torch import Tensor
+from typing import TypedDict, Unpack
+from ...shared.io import OneScaleMethod, ScaleMethod
+from .mask_scale_by import OneMaskScaleBy
+
+class OneMaskScaleUpByShorterEdgeInputs(TypedDict):
+	device: str
+	mask: Tensor
+	method: ScaleMethod
+	size: int
+
+class OneMaskScaleUpByShorterEdge(io.ComfyNode):
+	@classmethod
+	def define_schema(cls) -> io.Schema:
+		return io.Schema(
+			node_id = "OneMaskScaleUpByShorterEdge",
+			category = "One/Mask",
+			inputs = [
+				io.Mask.Input(id = "mask"),
+				OneScaleMethod.Input(
+					id = "method",
+					default = ScaleMethod.Bicubic,
+				),
+				io.Int.Input(
+					id = "size",
+					default = 1024,
+					min = 1,
+					max = maxsize,
+					step = 1,
+				),
+				io.Combo.Input(
+					id = "device",
+					options = get_gpu_device_options(),
+					default = "default",
+					advanced = True,
+				),
+			],
+			outputs = [
+				io.Mask.Output(id = "mask"),
+			],
+		)
+
+	@classmethod
+	def execute(cls, **kwargs: Unpack[OneMaskScaleUpByShorterEdgeInputs]) -> io.NodeOutput:
+		mask = kwargs["mask"]
+
+		return OneMaskScaleBy.execute(
+			mask = mask,
+			method = kwargs["method"],
+			multiple = max(1.0, kwargs["size"] / min(mask.shape[1:3])),
+			device = kwargs["device"],
+		)

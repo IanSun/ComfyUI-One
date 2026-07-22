@@ -1,0 +1,24 @@
+{
+	"name": "@one/ui",
+	"type": "module",
+	"scripts": {
+		"build": "vite build"
+	},
+	"dependencies": {
+		"clsx": "catalog:",
+		"react": "catalog:",
+		"react-dom": "catalog:"
+	},
+	"devDependencies": {
+		"@comfyorg/comfyui-frontend": "workspace:*",
+		"@types/react": "catalog:",
+		"@types/react-dom": "catalog:",
+		"@vitejs/plugin-react": "catalog:",
+		"nx": "catalog:",
+		"typescript": "catalog:",
+		"vite": "catalog:",
+		"vite-plugin-css-injected-by-js": "catalog:",
+		"zod": "catalog:@comfyorg/comfyui-frontend"
+	},
+	"private": true
+}

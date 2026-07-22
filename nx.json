@@ -1,0 +1,32 @@
+{
+	"$schema": "node_modules/nx/schemas/nx-schema.json",
+	"analytics": false,
+	"namedInputs": {
+		"default": [
+			"{projectRoot}/**/*",
+			"{projectRoot}/dist/**/*"
+		],
+		"production": [
+			"default"
+		]
+	},
+	"targetDefaults": {
+		"build": {
+			"cache": true,
+			"dependsOn": [
+				{
+					"dependencies": true,
+					"target": "build"
+				}
+			],
+			"inputs": [
+				"production",
+				"^production"
+			],
+			"outputs": [
+				"{projectRoot}/dist"
+			]
+		}
+	},
+	"useDaemonProcess": false
+}
