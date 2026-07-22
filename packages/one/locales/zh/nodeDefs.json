@@ -1,0 +1,425 @@
+{
+	"OneBoundingBox": {
+		"display_name": "边界框",
+		"inputs": {
+			"height": {
+				"name": "高度"
+			},
+			"width": {
+				"name": "宽度"
+			},
+			"x": {
+				"name": "横坐标"
+			},
+			"y": {
+				"name": "纵坐标"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "边界框"
+			}
+		}
+	},
+	"OneBoundingBoxInspect": {
+		"display_name": "边界框检视",
+		"inputs": {
+			"box": {
+				"name": "边界框"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "横坐标"
+			},
+			"1": {
+				"name": "纵坐标"
+			},
+			"2": {
+				"name": "宽度"
+			},
+			"3": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneExecutionBlock": {
+		"display_name": "执行阻止",
+		"inputs": {
+			"input": {
+				"name": "输入"
+			},
+			"passthrough": {
+				"name": "通过"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneExecutionVoid": {
+		"display_name": "执行废除",
+		"inputs": {
+			"input": {
+				"name": "输入"
+			},
+			"passthrough": {
+				"name": "通过"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "输出"
+			}
+		}
+	},
+	"OneFloat": {
+		"display_name": "浮点数",
+		"inputs": {
+			"value": {
+				"name": "值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneFloatMax": {
+		"display_name": "浮点数最大值",
+		"inputs": {
+			"value_value0": {
+				"name": "值0"
+			},
+			"value_value1": {
+				"name": "值1"
+			},
+			"value_value2": {
+				"name": "值2"
+			},
+			"value_value3": {
+				"name": "值3"
+			},
+			"value_value4": {
+				"name": "值4"
+			},
+			"value_value5": {
+				"name": "值5"
+			},
+			"value_value6": {
+				"name": "值6"
+			},
+			"value_value7": {
+				"name": "值7"
+			},
+			"value_value8": {
+				"name": "值8"
+			},
+			"value_value9": {
+				"name": "值9"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneFloatMin": {
+		"display_name": "浮点数最小值",
+		"inputs": {
+			"value_value0": {
+				"name": "值0"
+			},
+			"value_value1": {
+				"name": "值1"
+			},
+			"value_value2": {
+				"name": "值2"
+			},
+			"value_value3": {
+				"name": "值3"
+			},
+			"value_value4": {
+				"name": "值4"
+			},
+			"value_value5": {
+				"name": "值5"
+			},
+			"value_value6": {
+				"name": "值6"
+			},
+			"value_value7": {
+				"name": "值7"
+			},
+			"value_value8": {
+				"name": "值8"
+			},
+			"value_value9": {
+				"name": "值9"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneFloatMultiply": {
+		"display_name": "浮点数相乘",
+		"inputs": {
+			"value_value0": {
+				"name": "值0"
+			},
+			"value_value1": {
+				"name": "值1"
+			},
+			"value_value2": {
+				"name": "值2"
+			},
+			"value_value3": {
+				"name": "值3"
+			},
+			"value_value4": {
+				"name": "值4"
+			},
+			"value_value5": {
+				"name": "值5"
+			},
+			"value_value6": {
+				"name": "值6"
+			},
+			"value_value7": {
+				"name": "值7"
+			},
+			"value_value8": {
+				"name": "值8"
+			},
+			"value_value9": {
+				"name": "值9"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneImageGetHeight": {
+		"display_name": "图像获取高度",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneImageGetLongerEdge": {
+		"display_name": "图像获取长边",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "长边"
+			}
+		}
+	},
+	"OneImageGetResolution": {
+		"display_name": "图像获取分辨率",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "分辨率"
+			}
+		}
+	},
+	"OneImageGetShorterEdge": {
+		"display_name": "图像获取短边",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "短边"
+			}
+		}
+	},
+	"OneImageGetSize": {
+		"display_name": "图像获取尺寸",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			},
+			"1": {
+				"name": "高度"
+			}
+		}
+	},
+	"OneImageGetWidth": {
+		"display_name": "图像获取宽度",
+		"inputs": {
+			"image": {
+				"name": "图像"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "宽度"
+			}
+		}
+	},
+	"OneInt": {
+		"display_name": "整数",
+		"inputs": {
+			"value": {
+				"name": "值"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneIntMax": {
+		"display_name": "整数最大值",
+		"inputs": {
+			"value_value0": {
+				"name": "值0"
+			},
+			"value_value1": {
+				"name": "值1"
+			},
+			"value_value2": {
+				"name": "值2"
+			},
+			"value_value3": {
+				"name": "值3"
+			},
+			"value_value4": {
+				"name": "值4"
+			},
+			"value_value5": {
+				"name": "值5"
+			},
+			"value_value6": {
+				"name": "值6"
+			},
+			"value_value7": {
+				"name": "值7"
+			},
+			"value_value8": {
+				"name": "值8"
+			},
+			"value_value9": {
+				"name": "值9"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneIntMin": {
+		"display_name": "整数最小值",
+		"inputs": {
+			"value_value0": {
+				"name": "值0"
+			},
+			"value_value1": {
+				"name": "值1"
+			},
+			"value_value2": {
+				"name": "值2"
+			},
+			"value_value3": {
+				"name": "值3"
+			},
+			"value_value4": {
+				"name": "值4"
+			},
+			"value_value5": {
+				"name": "值5"
+			},
+			"value_value6": {
+				"name": "值6"
+			},
+			"value_value7": {
+				"name": "值7"
+			},
+			"value_value8": {
+				"name": "值8"
+			},
+			"value_value9": {
+				"name": "值9"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	},
+	"OneIntMultiply": {
+		"display_name": "整数相乘",
+		"inputs": {
+			"value_value0": {
+				"name": "值0"
+			},
+			"value_value1": {
+				"name": "值1"
+			},
+			"value_value2": {
+				"name": "值2"
+			},
+			"value_value3": {
+				"name": "值3"
+			},
+			"value_value4": {
+				"name": "值4"
+			},
+			"value_value5": {
+				"name": "值5"
+			},
+			"value_value6": {
+				"name": "值6"
+			},
+			"value_value7": {
+				"name": "值7"
+			},
+			"value_value8": {
+				"name": "值8"
+			},
+			"value_value9": {
+				"name": "值9"
+			}
+		},
+		"outputs": {
+			"0": {
+				"name": "值"
+			}
+		}
+	}
+}

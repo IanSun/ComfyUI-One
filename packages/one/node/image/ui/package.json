@@ -1,0 +1,26 @@
+{
+	"name": "@one/node.image-crop",
+	"exports": {
+		".": "./dist/main.js"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "nx build"
+	},
+	"dependencies": {
+		"clsx": "catalog:",
+		"react": "catalog:",
+		"react-dom": "catalog:"
+	},
+	"devDependencies": {
+		"@one/tsconfig": "workspace:*",
+		"@types/react": "catalog:",
+		"@types/react-dom": "catalog:",
+		"@vitejs/plugin-react": "catalog:",
+		"nx": "catalog:",
+		"typescript": "catalog:",
+		"vite": "catalog:",
+		"vite-plugin-lib-inject-css": "catalog:"
+	},
+	"private": true
+}

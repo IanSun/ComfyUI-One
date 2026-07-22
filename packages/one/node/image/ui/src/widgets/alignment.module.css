@@ -1,0 +1,10 @@
+.root {
+	height: 100%;
+}
+
+.icon {
+	stroke: currentColor;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke-width: 1.5;
+}

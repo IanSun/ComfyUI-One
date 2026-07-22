@@ -1,0 +1,30 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"editor.formatOnSave": true,
+	"editor.insertSpaces": false,
+	"editor.rulers": [
+		120
+	],
+	"eslint.codeActionsOnSave.rules": [
+		"!@stylistic/multiline-comment-style",
+		"!capitalized-comments",
+		"!no-useless-return",
+		"*"
+	],
+	"eslint.format.enable": false,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"python.analysis.extraPaths": [
+		"packages/@comfyorg/comfyui"
+	],
+	"python.analysis.stubPath": "packages/@types/comfyui",
+	"python.analysis.typeCheckingMode": "strict"
+}
